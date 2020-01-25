@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".studentHomeActivity">
+
+    <Button
+        android:id="@+id/btnBilgiEkle"
+        android:layout_width="167dp"
+        android:layout_height="66dp"
+        android:layout_marginTop="64dp"
+        android:onClick="BilgiEkle"
+        android:text="bilgileri düzenle"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/btnRandevuAl"
+        android:layout_width="167dp"
+        android:layout_height="66dp"
+        android:layout_marginTop="48dp"
+        android:onClick="RandevuAl"
+        android:text="randevu al"
+        app:layout_constraintEnd_toEndOf="@+id/btnBilgiEkle"
+        app:layout_constraintStart_toStartOf="@+id/btnBilgiEkle"
+        app:layout_constraintTop_toBottomOf="@+id/btnBilgiEkle" />
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="167dp"
+        android:layout_height="66dp"
+        android:layout_marginTop="48dp"
+        android:onClick="RandevuGörüntüle"
+        android:text="Randevuları Görüntüle"
+        app:layout_constraintEnd_toEndOf="@+id/btnRandevuAl"
+        app:layout_constraintStart_toStartOf="@+id/btnRandevuAl"
+        app:layout_constraintTop_toBottomOf="@+id/btnRandevuAl" />
+</androidx.constraintlayout.widget.ConstraintLayout>

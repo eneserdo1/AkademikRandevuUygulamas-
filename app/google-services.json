@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "229019678185",
+    "firebase_url": "https://akademikrandevusistemi.firebaseio.com",
+    "project_id": "akademikrandevusistemi",
+    "storage_bucket": "akademikrandevusistemi.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:229019678185:android:ad30b5d660ad13587a4778",
+        "android_client_info": {
+          "package_name": "com.eneserdogan.arsis"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "229019678185-jclmsnj9n144bhsve2a3rpvplh9firne.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.eneserdogan.arsis",
+            "certificate_hash": "dc78bb5b989096bae1b66dcb6aa3d26af85b75af"
+          }
+        },
+        {
+          "client_id": "229019678185-09erb27t7rtiutu4t1srjma6q0d7pq96.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCRejN908rbrIGudcO9zyU7k0FzZ0a-2Fw"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "229019678185-09erb27t7rtiutu4t1srjma6q0d7pq96.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

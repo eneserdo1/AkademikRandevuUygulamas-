@@ -1,0 +1,32 @@
+<resources>
+    <string name="app_name">ARSIS</string>
+    <string-array name="bölüm">
+        <item>Bilgisayar Mühendisliği</item>
+        <item>Makine Mühendisliği</item>
+        <item>Gıda Mühendisliği</item>
+        <item>Biyomedikal Mühendisliği</item>
+        <item>Elektrik-Elektronik Mühendisliği</item>
+        <item>Endüstri Mühendisliği</item>
+
+    </string-array>
+
+    <string-array name="sınıf">
+        <item>hazırlık</item>
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+
+    </string-array>
+
+    <string-array name="ünvanlar">
+        <item>Prof.Dr.</item>
+        <item>Doç.Dr.</item>
+        <item>Yrd.Doç.Dr.</item>
+        <item>Dr.</item>
+        <item>Arş.Gör.</item>
+        <item>Öğr.Gör.</item>
+    </string-array>
+
+
+</resources>

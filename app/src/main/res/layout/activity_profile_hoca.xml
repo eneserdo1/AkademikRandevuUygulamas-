@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ProfileActivityHoca">
+
+    <Button
+        android:id="@+id/btnKaydetHoca"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="95dp"
+        android:onClick="kaydetHoca"
+        android:text="Kaydet"
+        app:layout_constraintEnd_toEndOf="@+id/bolumSpinner"
+        app:layout_constraintStart_toStartOf="@+id/bolumSpinner"
+        app:layout_constraintTop_toBottomOf="@+id/bolumSpinner" />
+
+    <EditText
+        android:id="@+id/etAdHoca"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="44dp"
+        android:ems="10"
+        android:hint="Ad"
+        android:inputType="textPersonName"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.483"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <EditText
+        android:id="@+id/etSoyadHoca"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="32dp"
+        android:ems="10"
+        android:hint="Soyad"
+        android:inputType="textPersonName"
+        app:layout_constraintEnd_toEndOf="@+id/etAdHoca"
+        app:layout_constraintStart_toStartOf="@+id/etAdHoca"
+        app:layout_constraintTop_toBottomOf="@+id/etAdHoca" />
+
+    <Spinner
+        android:id="@+id/unvanSpinner"
+        android:layout_width="210dp"
+        android:layout_height="55dp"
+        android:layout_marginTop="44dp"
+        app:layout_constraintEnd_toEndOf="@+id/etSoyadHoca"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="@+id/etSoyadHoca"
+        app:layout_constraintTop_toBottomOf="@+id/etSoyadHoca" />
+
+    <Spinner
+        android:id="@+id/bolumSpinner"
+        android:layout_width="210dp"
+        android:layout_height="55dp"
+        android:layout_marginTop="32dp"
+        app:layout_constraintEnd_toEndOf="@+id/unvanSpinner"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="@+id/unvanSpinner"
+        app:layout_constraintTop_toBottomOf="@+id/unvanSpinner" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

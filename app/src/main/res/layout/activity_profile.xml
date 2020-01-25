@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ProfileActivity">
+
+    <TextView
+        android:id="@+id/tvUserEmail"
+        android:layout_width="335dp"
+        android:layout_height="47dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="28dp"
+        android:layout_marginEnd="16dp"
+        android:textSize="18sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <EditText
+        android:id="@+id/etAd"
+        android:layout_width="210dp"
+        android:layout_height="45dp"
+        android:layout_marginTop="32dp"
+        android:ems="10"
+        android:hint="AD"
+        android:inputType="textPersonName"
+        app:layout_constraintEnd_toEndOf="@+id/tvUserEmail"
+        app:layout_constraintStart_toStartOf="@+id/tvUserEmail"
+        app:layout_constraintTop_toBottomOf="@+id/tvUserEmail" />
+
+    <EditText
+        android:id="@+id/etSoyad"
+        android:layout_width="210dp"
+        android:layout_height="45dp"
+        android:layout_marginTop="36dp"
+        android:ems="10"
+        android:hint="SOYAD"
+        android:inputType="textPersonName"
+        app:layout_constraintEnd_toEndOf="@+id/etAd"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="@+id/etAd"
+        app:layout_constraintTop_toBottomOf="@+id/etAd" />
+
+    <Spinner
+        android:id="@+id/etBölüm"
+        android:layout_width="210dp"
+        android:layout_height="45dp"
+        android:layout_marginTop="36dp"
+        android:ems="10"
+        android:hint="BÖLÜM"
+        android:inputType="textPersonName"
+        app:layout_constraintEnd_toEndOf="@+id/etSoyad"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="@+id/etSoyad"
+        app:layout_constraintTop_toBottomOf="@+id/etSoyad" />
+
+
+    <Button
+        android:id="@+id/btnKaydet"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="72dp"
+        android:onClick="kaydet"
+        android:text="kaydet"
+        app:layout_constraintEnd_toEndOf="@+id/spinner"
+        app:layout_constraintStart_toStartOf="@+id/spinner"
+        app:layout_constraintTop_toBottomOf="@+id/spinner" />
+
+    <Spinner
+        android:id="@+id/spinner"
+        android:layout_width="212dp"
+        android:layout_height="49dp"
+        android:layout_marginTop="26dp"
+        app:layout_constraintEnd_toEndOf="@+id/etBölüm"
+        app:layout_constraintStart_toStartOf="@+id/etBölüm"
+        app:layout_constraintTop_toBottomOf="@+id/etBölüm" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
