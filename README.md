@@ -1,2 +1,3 @@
-# AkademikRandevuUygulamas-
-Akademisyenler ve öğrencilerin arasındaki iletişimi artırmak için yapılan mobil uygulama.
+Akademik Randevu Uygulamasi
+Öğrencilerin bu mobil uygulama üzerinden akademisyenlerin belirlediği saatler ve tarihlerde akademisyenlerden randevu almasını sağlıyor.
+Bu sayede öğrenci akademisyen etkileşimi sağlanıyor.
