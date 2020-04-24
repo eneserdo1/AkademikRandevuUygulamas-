@@ -1,5 +1,4 @@
 
-<b>AKADEMİK RANDEVU UYGULAMASI</b>
 <b>ACADEMIC APPOINTMENT APPLICATION</b>
 <ul>
 <li> Academics determine their appointment hours.</li>
